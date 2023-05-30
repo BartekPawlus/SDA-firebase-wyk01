@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sda.document</title>
+</head>
+<body>
+  <div>
+    <h1>Firebase</h1>
+    <h2>FORMULARZ DO REJESTRACJI</h2>
+    <form id="form">
+      <label for="email">
+        Email:
+        <input type="text" id="email">
+      </label>
+      <label for="password">
+        Hasło:
+        <input type="password" id="password">
+      </label>
+      <button type="submit">Wyślij</button>
+    </form>
+    <h2>FORMULARZ DO LOGOWANIA</h2>
+    <form id="formLog">
+      <label for="emailLog">
+        Email:
+        <input type="text" id="emailLog">
+      </label>
+      <label for="passwordLog">
+        Hasło:
+        <input type="password" id="passwordLog">
+      </label>
+      <button type="submit">Wyślij</button>
+    </form>
+    <h2>DODAJ USERA DO BAZY FIREBASE</h2>
+    <form id="addUserForm">
+      <label for="emailUser">
+        Email:
+        <input type="text" id="emailUser">
+      </label>
+      <label for="passwordUser">
+        Hasło:
+        <input type="password" id="passwordUser">
+      </label>
+      <label for="ageUser">
+        Wiek(number):
+        <input type="text" id="ageUser">
+      </label>
+      <button type="submit">Wyślij</button>
+    </form>
+    <button id="getUsers">Pobierz uzytkowników</button>
+    <h2>FORMULARZ FILTRUJĄCY</h2>
+    <form id="formFiltr">
+      <label for="email">
+        Email:
+        <input type="text" id="emailFiltr">
+      </label>
+      <button type="submit">WYŚLIJ</button>
+    </form>
+    <h2>AKTUALIZACJA UZYTKOWNIKA</h2>
+    <form id="updatePassword">
+      <label for="updateId">
+        ID:
+        <input type="text" id="updateId">
+      </label>
+      <label for="updatePassword">
+        Hasło:
+        <input type="password" id="updatePassword" min="6">
+      </label>
+      <button type="submit">ZAKTUALIZUJ</button>
+      </form>
+      <h2>USUWANIE UZYTKOWNIKA</h2>
+    <form id="deleteUser">
+      <label for="deleteId">
+        ID:
+        <input type="text" id="deleteId">
+      </label>
+      <button type="submit">ZAKTUALIZUJ</button>
+      </form>
+  </div>
+  <script src="/index.3d214d75.js" defer=""></script>
+</body>
+</html>
